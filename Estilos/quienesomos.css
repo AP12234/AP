@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d9c7ae;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    margin-top: 450px;
+    width: 80%;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+}
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+.text {
+    margin-left: 60px;
+    margin-top : -50px;
+    width: 40%;
+    text-align: left;
+}
+.text h2 {
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+}
+.text p {
+    text-align: justify;
+    font-size: 18px;
+    color: #555;
+}
+.image {
+    width: 39%;
+    margin-right: 70px;
+    margin-top: -80px;
+
+}
+.image img {
+    width: 100%;
+    border-radius: 10px;
+}
+.footer {
+    margin-top: 40px;
+    font-size: 16px;
+    color: #555;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer .social-icons img {
+    width: 300px;
+    margin-right: 10px;
+}
+.footer .social-icons {
+    display: flex;
+    align-items: center;
+}
+.footer .rights {
+    font-size: 12px;
+    color: #888;
+}
+.footer .privacy {
+    font-size: 12px;
+    color: #888;
+}
+.my-button {
+    padding: 10px 20px;
+    background-color: #a38f73;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .my-button:hover {
+    background-color: #d9c7ae;
+  }
+  
+  .my-button:active {
+    background-color: #a38f73;
+  }
+
+/* maps */
+#map {
+	height: 450px;
+    margin-left: 70px;
+}
+/* fin maps */
+  

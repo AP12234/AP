@@ -1,0 +1,104 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.container {
+    display: flex;
+    height: 100vh;
+}
+.sidebar {
+    width: 30%;
+    background-color: #9b0d10; /* Color de fondo rojo */
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sidebar h1 {
+    font-family: "Rubik Distressed", system-ui;
+  font-weight: 400;
+  font-style: normal;
+    font-size: 2.3em;
+    margin: 0;
+    text-align: center;
+}
+
+.sidebar nav h2 {
+  font-family: "Cookie", cursive;
+  font-weight: 500;
+  font-style: normal;  
+  display: block;
+  text-decoration: none;
+  font-size: 3.0em;
+  margin: 60px 0;
+  text-align: center;
+  color:#ffffff;
+}
+.sidebar nav {
+    margin-top: -87px;
+}
+.sidebar nav a {
+    font-family: "Bona Nova SC", serif;
+  font-weight: 400;
+  font-style: normal;
+    display: block;
+    text-decoration: none;
+    font-size: 1.8em;
+    margin: 60px 0;
+    text-align: center;
+    color:#ffffff;
+}
+
+.sidebar img {
+    
+    width: 300px;
+    margin: 0 auto;
+    display: block;
+}
+.main-content {
+    width: 70%;
+    background-image: url('imagenes/CarneR.png'); /* Debes reemplazar esto con la imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.main-content .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+.dropdown {
+    display: inline-block;
+    position: relative;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown-content a {
+    display: block;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+  }
+  .dropdown-content a:hover {
+    color: #FFFFFF;
+    background-color: #00A4BD;
+  }
+    
+  /* Boostrap menu*/
+  
+  
+  

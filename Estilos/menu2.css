@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    width: 70%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #1d0321;
+    padding: 20px;
+}
+.menu-title {
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: black;
+}
+nav li ul{
+        display:none;
+        position:absolute;
+        top:0px;
+        left:120px;
+    }
+            
+    nav li:hover ul{display:block;}
+
+.menu-item {
+    font-family: "Dangrek", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ededed;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.menu-item img {
+    width: 180px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.menu-details {
+    flex: 1;
+    padding-left: 20px;
+}
+.menu-details h3 {
+    font-size: 20px;
+    margin: 0 0 10px 0;
+    color: #333;
+}
+.menu-details p {
+    font-size: 16px;
+    margin: 0;
+    color: #555;
+}
+.menu-price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+}
+.note {
+    text-align: center;
+    font-style: italic;
+    font-size: 14px;
+    margin-top: 10px;
+    color: #721c1c;
+}
+.my-button {
+    padding: 10px 20px;
+    background-color: #a38f73;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .my-button:hover {
+    background-color: #d9c7ae;
+  }
+  
+  .my-button:active {
+    background-color: #a38f73;
+  }
